@@ -1,5 +1,8 @@
-Your job is to complete plotData.m to draw the plot; modify the
-file and fill in the following code:<br>
-plot(x, y, 'rx', 'MarkerSize', 10); % Plot the data<br>
-ylabel('Profit in $10,000s'); % Set the y−axis label<br>
-xlabel('Population of City in 10,000s'); % Set the x−axis label<br>
+Your next task is to complete the code in the file computeCost.m, which
+is a function that computes J(θ). As you are doing this, remember that the
+variables X and y are not scalar values, but matrices whose rows represent
+the examples from the training set.
+Once you have completed the function, the next step in ex1.m will run
+computeCost once using θ initialized to zeros, and you will see the cost
+printed to the screen.
+You should expect to see a cost of 32.07.
